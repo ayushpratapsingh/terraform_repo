@@ -8,7 +8,7 @@
   }
 }*/
 resource "aws_instance" "demo-server" {
-ami = "i-054f9e390f2e4f4fd"
+ami = "ami-0440d3b780d96b29d"
 instance_type = "t2.medium"
 key_name = "ram"
 //security_groups = ["demo-sg"]
